@@ -1,7 +1,5 @@
-let percentage = 55;
- 
-let grade = percentage < 50 ? "D grade OR fail" : "C grade";
+let percentage = 59;
+
+
+let grade = percentage>50 ? "C grade": "D grade";
 console.log(grade);
-
-
-percentage>50 ? console.log("C grade") : console.log("D grade");
